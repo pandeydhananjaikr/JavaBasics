@@ -1,0 +1,25 @@
+
+J
+java:S3740"/Provide the parametrized type for this generic.(èÙÇüÿÿÿÿ
+E
+java:S3740!"/Provide the parametrized type for this generic.(Íäç©
+j
+java:S1192"TDefine a constant instead of duplicating this literal "*******************" 3 times.(â÷ºß
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÑµÉŽøÿÿÿÿ
+M
+java:S1854	"7Remove this useless assignment to local variable "arr".(Ê§…®
+@
+java:S1197	"*Move the array designators [] to the type.(Ê§…®
+>
+java:S1481	"(Remove this unused "arr" local variable.(Ê§…®
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ËõÀæüÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ªêØÝøÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(µñÒú
+N	java:S106"9Replace this use of System.out or System.err by a logger.(µñÒú
+S	java:S106"9Replace this use of System.out or System.err by a logger.( ¢¤ÿøÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(â÷ºß
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ËŽ¥„úÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(â÷ºß
+S	java:S106#"9Replace this use of System.out or System.err by a logger.(ˆ¢Ûßüÿÿÿÿ
+N	java:S106&"9Replace this use of System.out or System.err by a logger.(â÷ºß
+N	java:S106*"9Replace this use of System.out or System.err by a logger.(€†­ð

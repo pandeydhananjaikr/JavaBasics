@@ -15,14 +15,15 @@ public class SortHashMap {
         ArrayList<Integer> list1 = new ArrayList<>();
 
 
-        int[] array1 = new int[numbers.size()];
+//        int[] array1 = new int[numbers.size()];
 //        for (Map.Entry<String, Integer> hmap : numbers.entrySet()) {
 //            list1.add(hmap.getValue());
 //        }
-
-        for (int value : numbers.keySet()) {
-
-        }
+//
+//        for (int value : numbers.keySet()) {
+//            System.out.println(value);
+//
+//        }
 
         Collections.sort(list1);
         System.out.println(list1.get(list1.size()-1));
