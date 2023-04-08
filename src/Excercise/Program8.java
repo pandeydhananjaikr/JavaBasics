@@ -22,7 +22,7 @@ public class Program8 {
 		
 		for (int i = 0; i < ch.length; i++) {
 			if (hmap.containsKey(ch[i])) {
-				hmap.put(ch[i], hmap.get(ch[i])+1);
+				hmap.put(ch[i], hmap.get(ch	[i])+1);
 			}
 			else {
 				hmap.put(ch[i], 1);
