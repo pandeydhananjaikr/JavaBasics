@@ -10,15 +10,15 @@ import java.util.*;
 public class SortedEvenNumbers {
     public static void main(String[] args) {
 
-        List<Integer> intList = new ArrayList<> (Arrays.asList(10,15,8,49,25,98,32));
-
-        for (int i = 0; i < intList.size(); i++) {
-
-            if (intList.get(i)%2!=0){
-                intList.remove(i);
+        int[] intArray = {10,15,8,49,25,98,32};
+        ArrayList <Integer> intList = new ArrayList<>();
+        for (int i = 0; i < intArray.length; i++) {
+            if (intArray[i]%2==0){
+                intList.add(intArray[i]);
             }
         }
-    // can sort using sort method
+
+   //     can sort using sort method
    //     Collections.sort(intList);
         for (int i = 0; i < intList.size()-1; i++) {
             if (intList.get(i)>intList.get(i+1)){
