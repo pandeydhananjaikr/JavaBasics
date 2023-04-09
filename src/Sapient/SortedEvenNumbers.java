@@ -14,19 +14,19 @@ public class SortedEvenNumbers {
 
         for (int i = 0; i < intList.size(); i++) {
 
-            if (intList.get(i)%2==0){
+            if (intList.get(i)%2!=0){
                 intList.remove(i);
             }
         }
-
-        Collections.sort(intList);
-//        for (int i = 0; i < intList.size()-1; i++) {
-//            if (intList.get(i)>intList.get(i+1)){
-//                a = intList.get(i);
-//                intList.set(i, intList.get(i+1)) ;
-//                intList.set(i+1, a);
-//            }
-//        }
+    // can sort using sort method
+   //     Collections.sort(intList);
+        for (int i = 0; i < intList.size()-1; i++) {
+            if (intList.get(i)>intList.get(i+1)){
+                int a = intList.get(i);
+                intList.set(i, intList.get(i+1)) ;
+                intList.set(i+1, a);
+            }
+        }
         System.out.println(intList);
     }
 }
