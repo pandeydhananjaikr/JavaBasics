@@ -1,14 +1,8 @@
 package Excercise;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map.Entry;
-import java.util.Set;
 
-import StringPrograms.StringtoCharArray;
-
-public class Program7 {
+public class CoountChar {
 	public static void main(String[] args) {
 
 		String str = "dhananjai";

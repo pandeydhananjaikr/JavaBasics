@@ -10,7 +10,7 @@ import java.util.ListIterator;
 
 public class HashSetDemo {
 	public static void main(String[] args) {
-	
+
 		HashSet<Integer> hset = new HashSet<>();
 		
 		hset.add(12);

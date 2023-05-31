@@ -17,7 +17,6 @@ public class SortedEvenNumbers {
                 intList.add(intArray[i]);
             }
         }
-
    //     can sort using sort method
    //     Collections.sort(intList);
         for (int i = 0; i < intList.size()-1; i++) {
