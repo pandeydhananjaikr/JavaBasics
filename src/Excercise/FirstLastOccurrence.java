@@ -1,7 +1,5 @@
 package Excercise;
-
 import java.util.ArrayList;
-
 public class FirstLastOccurrence {
     public static void main(String[] args) {
         int[] array = {1, 2, 3, 4, 5, 6, 3, 6, 7, 3, 5, 8};
